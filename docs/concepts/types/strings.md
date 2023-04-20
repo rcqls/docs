@@ -121,7 +121,7 @@ To get a float from a string, use the `.f32()` or `.f64()` method:
 
 ```v play
 println('3.14'.f32()) // 3.14
-println('3.14'.parse_uint()) // 3.14
+println('3.14'.f64()) // 3.14
 ```
 
 ### to `bool`
